@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#header{
+
+    background-color: rgba(78, 78, 184, 0.486);
+    height: 100px;
+
+
+}
+.logo{
+    float: left;
+    font-weight: bolder;
+    font-size: 3rem;
+    padding-top:10px;
+    padding-left:30px;
+
+}
+.menu{
+    float: right;
+    
+
+}
+.menu-items{
+    display:inline-block;
+    margin-left: 10px;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+
+.menu-bar{
+    margin: 50px 0 0 60px;
+
+}
+.menu-link{
+    font-size: 25px;
+    text-decoration: none;
+    
+}
+
+.menu-link:hover{
+    background-color: rgba(123, 151, 153, 0.753);
+    color: rgba(124, 133, 133, 0.363);
+    /* margin: 0 8 0 8;
+    padding: 7px; */
+}
+
+.search-bar{
+    float: right;
+    padding: 45px 20px;
+
+}
+.search{
+    height: 40px;
+    width: 20rem;
+    border-radius: 20px;
+
+
+}
+.search-btn{
+    height: 40px;
+    width: 5rem;
+    border-radius: 10px;
+    background-color: rgba(67, 168, 194, 0.829);
+    font-size: large;
+    color: white;
+
+}
+
+.main-image{
+    width: 100vw;
+    height: 500px;
+}
+
+
+.footer-page{
+    background-color: black;
+    height: 70px;
+}
+
+.photos-1{
+    width: 300px;
+    height: 300px;
+    margin-top: 20px;
+}
+
+.photos-2{
+    width: 300px;
+    height: 300px;
+}
+
+.image-container{
+    display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+}
+
+.many-photos{
+    background-color: rgb(137, 204, 157);
+    border-radius: 15px;
+    margin-right: 35px;
+    width: 280px;
+    height: 400px;
+    text-align: center;
+}
+
+.image_head{
+    font-size: 50px;
+    margin-left: 150px;
+    margin-top: 80px;
+
+}
